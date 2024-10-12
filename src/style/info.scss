@@ -1,0 +1,46 @@
+.info{
+padding-left: 16px;
+}
+
+
+.offer_button{
+    display: flex;
+    background-color: transparent;
+    border-color: transparent;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.offer__link{
+    color: #1B1C21;
+    font-size: 16px;
+    max-width: 220px;
+    text-align: left;
+    padding-top: 16px;
+        &::after{
+            position: absolute;
+            content: url(../image/Line.svg);
+            margin-left: 4px;
+            margin-top:  2px;
+        }
+    }  
+.info_text{
+    font-size: 14px;
+}
+
+ 
+
+
+@media (min-width: 768px){
+    .info{
+        padding-left: 24PX;
+        max-width: 422px;
+    }
+
+
+}
+@media (min-width: 1440px){
+    .info{
+        padding-left: 34px;
+    }
+}

@@ -1,0 +1,19 @@
+.prices__btn{
+display: flex;
+height: 32px;
+width: 119px;
+color: #FFFFFF;
+background-color: #FF3E79;
+border-radius: 16px;
+justify-content: center;
+align-items: center;
+font-weight: 500;
+flex-direction: row-reverse;
+
+    &::before {
+        display: flex;
+        content: url(../image/dropdown.svg);
+        margin-left: 17px;
+
+    }
+}
