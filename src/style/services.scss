@@ -71,7 +71,7 @@
 }
 
 .main-content {
-  width: 50%;
+  width: 100%;
   &__text {
     font-size: 14px;
     letter-spacing: 0.2px;
@@ -79,6 +79,15 @@
       margin-bottom: 25px;
     }
   }
+}
+
+.first-screen__img {
+  width: 100%;
+  height: 100%;
+}
+.prices .swiper-pagination3 {
+  position: absolute;
+  margin-bottom: 318px !important;
 }
 
 @media (min-width: 768px) {
@@ -92,6 +101,9 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
   }
+  .main-content{
+    width: 50%;
+  }
   .text_content {
     display: flex;
     gap: 48px;
@@ -100,11 +112,6 @@
   .imadge_png {
     width: 50%;
     padding-right: 20px;
-  }
-
-  .first-screen__img {
-    width: 100%;
-    height: 100%;
   }
 }
 

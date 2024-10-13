@@ -3,6 +3,8 @@ const popupWrapper = document.querySelector(".left_menu");
 const shadowWrapper = document.querySelector(".wrapper-shadow-popup")
 const btnAside = document.querySelector(".header_button_left");
 const headerButtonPopUp = document.querySelector(".burger")
+const backgraundLeftSide = document.querySelector(".wrapper-shadow-popup")
+
 
 btnAside.addEventListener("click", function () {
   html.style = "";
@@ -10,6 +12,14 @@ btnAside.addEventListener("click", function () {
   "display: none;";
   shadowWrapper.style = ""
 });
+
+backgraundLeftSide.addEventListener("click", function () {
+  html.style = "";
+  popupWrapper.style =
+  "display: none;";
+  shadowWrapper.style = ""  
+})
+
 
 headerButtonPopUp.addEventListener("click", function () {
   html.style.overflowY = "hidden";
